@@ -42,7 +42,7 @@
  *
  *          int tolower( int ch ); */
 
-/* FUCTION: toupper() 
+/* FUCTION: toupper()
  *          [Converts the given character to uppercase according to the character conversion rules defined by the currently installed C locale.]
  *
  *          int toupper( int ch );  */
@@ -74,7 +74,7 @@
 
 #pragma region header <cmath>
 
-/* FUCTION: pow() 
+/* FUCTION: pow()
  *          [Computes the value of base raised to the power exp or iexp.]
  *
  *          float  pow ( float base, float exp );   [exp is exponent as a value of floating-point or integral type]
@@ -84,7 +84,7 @@
 
 /* FUCTION: abs(), fabs()
  *          [Computes the absolute value of an integer number or floating point number.]
- *          
+ *
  *          int    abs  ( int n );
  *          long   abs  ( long n );
  *          float  fabs ( float arg );
@@ -99,7 +99,7 @@
  *          [RAND_MAX is guaranteed that this value is at least 32767 and this value is implementation dependent.]
  *          [Each time rand() is seeded with the same seed, it must produce the same sequence of values.]
  *          [If rand() is used before any calls to srand(), rand() behaves as if it was seeded with srand(1).]
- *          
+ *
  *          int rand();
  *          e.g. std::srand(std::time(nullptr));
  *               int random_variable = std::rand(); */
@@ -136,8 +136,8 @@
 
 #pragma region header <unordered_map>
 
-/* CLASS: unordered_map                       
- *        [Map Implementation based on Hash] 
+/* CLASS: unordered_map
+ *        [Map Implementation based on Hash]
  *        FUCTION: begin()
  *                 [Returns an iterator to the first element of the container.]
  *                 iterator begin() noexcept
@@ -180,8 +180,8 @@
 
 #pragma region header <unordered_set>
 
-/* CLASS: unordered_set                       
- *        [Set Implementation based on Hash] 
+/* CLASS: unordered_set
+ *        [Set Implementation based on Hash]
  *        FUCTION: begin()
  *                 [Returns an iterator to the first element of the container.]
  *                 iterator begin() noexcept
@@ -227,7 +227,7 @@
 
 #pragma region header <vector>
 
-/* CLASS: unordered_set                       
+/* CLASS: unordered_set
  *        [Vector Implementation based on Array] */
 
 #pragma endregion
