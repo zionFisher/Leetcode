@@ -117,7 +117,7 @@
 /* CLASS: string */
 
 /* FUCTION: swap()
- *          [see also <algotithm>] */
+ *          [see also <algorithm>] */
 
 #pragma endregion
 
@@ -221,7 +221,7 @@
 #pragma region header <utility>
 
 /* FUCTION: swap()
- *          [see also <algotithm>] */
+ *          [see also <algorithm>] */
 
 #pragma endregion
 
