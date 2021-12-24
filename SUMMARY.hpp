@@ -1,5 +1,3 @@
-// header
-
 #pragma region FORMAT
 
 /* FUCTION: <fuction name>
@@ -17,7 +15,7 @@
 
 #pragma endregion FORMAT
 
-#pragma region header <algorithm>
+//! <algorithm>-------------------------------------------------------------------------------------
 
 /* FUCTION: sort()
  *          [Sorts the elements in the range [first, last) in ascending order.]
@@ -33,9 +31,7 @@
  *          void swap( T& a, T& b );
  *          e.g. std::swap(a, b); */
 
-#pragma endregion
-
-#pragma region header <cctype>
+//! <cctype>----------------------------------------------------------------------------------------
 
 /* FUCTION: tolower()
  *          [Converts the given character to lowercase according to the character conversion rules defined by the currently installed C locale.]
@@ -47,9 +43,7 @@
  *
  *          int toupper( int ch );  */
 
-#pragma endregion
-
-#pragma region header <cinttypes>
+//! <cinttypes>------------------------------------------------------------------------------------
 
 /* DEFINITION: int8_t, int16_t, int32_t, int64_t
  *             [signed integer type with width of exactly 8, 16, 32 and 64 bits respectively with no padding bits and using 2's complement for negative values] */
@@ -63,16 +57,13 @@
 /* DEFINITION: INT8_MIN, INT16_MIN, INT32_MIN, INT64_MIN
  *             [minimum value of an object of type int8_t, int16_t, int32_t, int64_t] */
 
-#pragma endregion
 
-#pragma region header <climits>
+//! <climits>--------------------------------------------------------------------------------------
 
 /* DEFINITION: INT_MAX, INT_MIN, CHAR_MAX, CHAR_MIN, LONG_MAX, LONG_MIN
  *             [maximum number and minimum number] */
 
-#pragma endregion
-
-#pragma region header <cmath>
+//! <cmath>----------------------------------------------------------------------------------------
 
 /* FUCTION: pow()
  *          [Computes the value of base raised to the power exp or iexp.]
@@ -90,9 +81,7 @@
  *          float  fabs ( float arg );
  *          double fabs ( double arg ); */
 
-#pragma endregion
-
-#pragma region header <cstdlib>
+//! <cstdlib>--------------------------------------------------------------------------------------
 
 /* FUCTION: rand()
  *          [Returns a pseudo-random integral value between ​0​ and RAND_MAX (0 and RAND_MAX included).]
@@ -110,18 +99,14 @@
  *          void srand( unsigned seed );
  *          e.g. see above */
 
-#pragma endregion
-
-#pragma region header <iostream>
+//! <iostream>-------------------------------------------------------------------------------------
 
 /* CLASS: string */
 
 /* FUCTION: swap()
  *          [see also <algorithm>] */
 
-#pragma endregion
-
-#pragma region header <numeric>
+//! <numeric>--------------------------------------------------------------------------------------
 
 /* FUCTION: accumulate()
  *          [Computes the sum of the given value init and the elements in the range [first, last).]
@@ -132,9 +117,12 @@
  *          T accumulate( InputIt first, InputIt last, T init, BinaryOperation op );
  *          e.g. int sum = accumulate(array.begin(), array.end(), 0); */
 
-#pragma endregion
+//! ||STL CONTAINER|| <vector>---------------------------------------------------------------------
 
-#pragma region header <unordered_map>
+/* CLASS: vector
+ *        [Vector Implementation based on Array] */
+
+//! ||STL CONTAINER|| <unordered_map>--------------------------------------------------------------
 
 /* CLASS: unordered_map
  *        [Map Implementation based on Hash]
@@ -176,9 +164,7 @@
  *                 [Exchanges the contents of the container with those of other.]
  *                 void swap( unordered_map& other ); */
 
-#pragma endregion
-
-#pragma region header <unordered_set>
+//! ||STL CONTAINER|| <unordered_set>--------------------------------------------------------------
 
 /* CLASS: unordered_set
  *        [Set Implementation based on Hash]
@@ -216,20 +202,11 @@
  *                 [Exchanges the contents of the container with those of other.]
  *                 void swap( unordered_map& other ); */
 
-#pragma endregion
-
-#pragma region header <utility>
+//! <utility>--------------------------------------------------------------------------------------
 
 /* FUCTION: swap()
  *          [see also <algorithm>] */
 
-#pragma endregion
 
-#pragma region header <vector>
-
-/* CLASS: unordered_set
- *        [Vector Implementation based on Array] */
-
-#pragma endregion
 
 using namespace std;
