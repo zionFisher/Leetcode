@@ -10,6 +10,7 @@
 #include <cmath>
 #include <cstdlib>
 
+#include <deque>
 #include <queue>
 #include <stack>
 #include <unordered_map>
