@@ -24,6 +24,7 @@
 #include "BinaryTree.hpp"
 #include "LinkedList.hpp"
 #include "MyQueue.hpp"
+#include "Node.hpp"
 
 #include "BinarySearch.hpp"
 #include "QuickSort.hpp"

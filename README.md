@@ -2,4 +2,30 @@
 题号前</br>
 添加了'^'的是重要题目。</br>
 添加了'~'的是略读题目。</br>
-其他的是没啥特别的题目。</br>
+
+| **数据结构缩写** |   **数据结构全称**   |
+| :--------------: | :------------------: |
+|      Array       |        Array         |
+|      Stack       |        Stack         |
+|      Queue       |        Queue         |
+|      LList       |     Linked List      |
+|      HashM       |       Hash Map       |
+|      HashS       |       Hash Set       |
+|       Map        |         Map          |
+|        BT        |     Binary Tree      |
+|       BST        |  Binary Search Tree  |
+|       Heap       |         Heap         |
+|   **算法缩写**   |     **算法全称**     |
+|       Sort       |         Sort         |
+|      Search      |        Serach        |
+|      String      |        String        |
+|        BS        |    Binary Search     |
+|       BFS        | Breadth First Search |
+|       DFS        |  Depth First Search  |
+|        DP        | Dynamic Programming  |
+|        2P        |     Two Pointers     |
+|      Greedy      |   Greedy Algorithm   |
+|      Design      |        Design        |
+|       BIT        |    Bit Operation     |
+|       Math       |         Math         |
+
