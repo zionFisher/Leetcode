@@ -3,7 +3,7 @@
 添加了'^'的是重要题目。</br>
 添加了'~'的是略读题目。</br>
 
-| **数据结构缩写** |   **数据结构全称**   |
+| **数据结构缩写**  |   **数据结构全称**    |
 | :--------------: | :------------------: |
 |      Array       |        Array         |
 |      Stack       |        Stack         |
@@ -15,9 +15,9 @@
 |        BT        |     Binary Tree      |
 |       BST        |  Binary Search Tree  |
 |       Heap       |         Heap         |
-|   **算法缩写**   |     **算法全称**     |
+|   **算法缩写**    |     **算法全称**     |
 |       Sort       |         Sort         |
-|      Search      |        Serach        |
+|      Search      |        Search        |
 |      String      |        String        |
 |        BS        |    Binary Search     |
 |       BFS        | Breadth First Search |

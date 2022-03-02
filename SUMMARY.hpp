@@ -33,6 +33,50 @@
 
 //! <cctype>----------------------------------------------------------------------------------------
 
+/* FUCTION: isalnum()
+ *          [Checks if the given character is an alphanumeric character.]
+ *          [In the default locale, the following characters are alphanumeric:]
+ *          [digits (0123456789)]
+ *          [uppercase letters (ABCDEFGHIJKLMNOPQRSTUVWXYZ)]
+ *          [lowercase letters (abcdefghijklmnopqrstuvwxyz)]
+ *
+ *          int isalnum( int ch ); */
+
+/* FUCTION: isalpha()
+ *          [Checks if the given character is an alphabetic character.]
+ *          [In the default locale, the following characters are alphabetic:]
+ *          [uppercase letters (ABCDEFGHIJKLMNOPQRSTUVWXYZ)]
+ *          [lowercase letters (abcdefghijklmnopqrstuvwxyz)]
+ *
+ *          int isalpha( int ch ); */
+
+/* FUCTION: islower()
+ *          [Checks if the given character is classified as a lowercase character.]
+ *          [islower returns a nonzero value only for the lowercase letters (abcdefghijklmnopqrstuvwxyz).]
+ *          [islower returns a zero value if the letter is not a lowercase alphabetic.]
+ *
+ *          int islower( int ch ); */
+
+/* FUCTION: isupper()
+ *          [Checks if the given character is classified as a uppercase character.]
+ *          [islower returns a nonzero value only for the uppercase letters (ABCDEFGHIJKLMNOPQRSTUVWXYZ).]
+ *          [islower returns a zero value if the letter is not a uppercase alphabetic.]
+ *
+ *          int isupper( int ch ); */
+
+/* FUCTION: isspace()
+ *          [Checks if the given character is whitespace character.]
+ *          [whitespace characters are the following:]
+ *          [space (0x20, ' ') || form feed (0x0c, '\f') || line feed (0x0a, '\n') || carriage return (0x0d, '\r') || horizontal tab (0x09, '\t') || vertical tab (0x0b, '\v')]
+ *
+ *          int isdigit( int ch ); */
+
+/* FUCTION: isdigit()
+ *          [Checks if the given character is one of the 10 decimal digits: 0123456789.]
+ *          [Return Non-zero value if the character is a numeric character, zero otherwise.]
+ *
+ *          int isdigit( int ch ); */
+
 /* FUCTION: tolower()
  *          [Converts the given character to lowercase according to the character conversion rules defined by the currently installed C locale.]
  *
